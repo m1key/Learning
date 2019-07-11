@@ -18,6 +18,7 @@ object Runner {
 
         val lambdaRunner = new LambdaRunner(() => println("Lambda"))
         lambdaRunner.run()
+        lambdaRunner.runOther(x => println("Being called by " + x))
     }
 
 }

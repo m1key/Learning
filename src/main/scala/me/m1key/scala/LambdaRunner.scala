@@ -6,4 +6,8 @@ class LambdaRunner (f: () => Unit){
     f
   }
 
+  def runOther(f2: (String) => Unit): Unit = {
+    f2("Lambda Runner")
+  }
+
 }
