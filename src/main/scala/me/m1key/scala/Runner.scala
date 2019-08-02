@@ -19,6 +19,12 @@ object Runner {
         val lambdaRunner = new LambdaRunner(() => println("Lambda"))
         lambdaRunner.run()
         lambdaRunner.runOther(x => println("Being called by " + x))
+
+        println(math.pow(math.sqrt(3), 2))
+        println("String"(0))
+        println("String" drop 1)
+        println("String" * 3)
+        println("String" takeRight 1)
     }
 
 }
